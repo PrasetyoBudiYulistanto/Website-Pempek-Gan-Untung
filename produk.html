@@ -75,16 +75,15 @@
     <section class="produk text-center my-5 py-5">
         <div class="container">
             <h2>Silahkan pilih menu yang anda inginkan</h2>
-            <!-- <p class="fs-4">Kualitas terbaik biji kopi pilihan, Fresh diambil langsung dari petani.</p> -->
             <hr class="border border-danger border-2 opacity-75">
 
             <div class="form-floating col-md-4 mx-auto my-5">
 
                 <select class="form-select" id="select_kopi">
                     <option selected disabled>-</option>
-                    <option value="arabica">Small Packet</option>
-                    <option value="robusta">Medium Packet</option>
-                    <option value="icejuice">Large Packet</option>
+                    <option value="small">Small Packet</option>
+                    <option value="medium">Medium Packet</option>
+                    <option value="large">Large Packet</option>
                 </select>
 
                 <label for="select_kopi"><b>Pilihan Menu</b></label>
@@ -173,42 +172,6 @@
 
 
         }
-        /* Tulis Javascrip Di bawah Sini*/
-
-        // var sumber = "data.json"
-
-        // select_kopi.onchange = function () {
-        //     var dipilih = this.value
-
-        //     var template = ""
-
-        //     $.get(sumber).then(function (data) {
-
-        //         var data_kopi = data[dipilih]
-
-        //         data_kopi.forEach(item => {
-        //             template += `<div class="col mb-4">
-        //                     <div class="card">
-        //                         <img src="${item.foto}" class="card-img-top" alt="...">
-        //                         <div class="card-body">
-        //                             <h5 class="card-title">${item.nama}</h5>
-        //                             <div class="row my-4">
-        //                                 <div class="col">
-        //                                     ${item.size}
-        //                                 </div>
-        //                                 <div class="col">
-        //                                     ${item.harga}
-        //                                 </div>
-        //                             </div>
-        //                             <a href="${item.link}" class="btn btn-warning w-100"><i class="bi bi-cart4"></i> Beli</a>
-        //                         </div>
-        //                     </div>
-        //                 </div>`
-        //         });
-        //         document.querySelector("#baris_produk").innerHTML = template
-        //     })
-        // }
-
     </script>
 </body>
 
